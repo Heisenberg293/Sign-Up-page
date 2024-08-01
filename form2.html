@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Crated Form</title>
+    <link rel="icon" href="/images/image.png" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1><b>Sign up</b></h1>
+      <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="username">Username </label>
+        <input type="text" name="username" id="username" />
+        <br />
+        <br />
+        <label for="password">Password </label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          maxlength="10"
+          minlength="5"
+          required
+        />
+        <br />
+        <br />
+        <label for="address">Address</label>
+        <textarea name="textarea" id="textarea" rows="3" cols="50"></textarea
+        ><br />
+        <br />
+
+        <label for="gender">Course</label>
+        <label for="Male">Data Structures and Algorithms</label>
+        <input type="radio" name="title" id="Mr." value="Mr." />
+        <label for="Female"
+          >Web Development with HTML, CSS, and JavaScript</label
+        >
+        <input type="radio" name="title" id="Ms." value="Ms." />
+        <br />
+        <label for="payment">Payment </label>
+        <select name="payment" id="payment">
+          <option value="payment">visa</option>
+          <option value="payment">mastercard</option>
+          <option value="payment">giftcard</option>
+        </select>
+        <br />
+        <br />
+        <a href="/index2.html">
+          <button><b>Sign Up</b></button>
+        </a>
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>

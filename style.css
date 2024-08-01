@@ -1,0 +1,74 @@
+
+h1 {
+    color: rgb(4, 62, 4);
+    text-shadow: 3px 3px 5px green, -3px -3px 5px green;
+    text-align: center;
+}
+body {
+    background-image: url(/images/natureImage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.form-container {
+    background-color: rgba(81, 200, 85, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(88, 71, 71, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+
+label {
+    color: rgb(4, 62, 4);
+    text-shadow: 3px 3px 5px green, -3px -3px 5px green;
+    display: block;
+    margin-top: 10px;
+    font-size: large;
+}
+
+input {
+    background-color: transparent;
+    color: rgb(7, 56, 7);
+    text-shadow: 3px 3px 5px green, -3px -3px 5px green;
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: transparent;
+    color: rgb(4, 62, 4);
+    text-shadow: 3px 3px 5px green, -3px -3px 5px green;    border-radius: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    background-color: transparent;
+    color: darkgreen;
+    text-shadow: 3px 3px 5px green, -3px -3px 5px green;
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+}
